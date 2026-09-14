@@ -49,7 +49,7 @@ nav a:hover{color:var(--ink);background:rgba(238,232,216,.06)}
 /* первый экран: плакат по своей пропорции, параллакс, текст справа - на кадре слева табло */
 .hero{position:relative;min-height:min(104vh,1075px);display:grid;align-items:end;overflow:hidden;
 border-bottom:1px solid rgba(238,232,216,.14)}
-.hero-img{position:absolute;inset:-7% 0 0;width:100%;height:114%;object-fit:cover;object-position:center 45%;will-change:transform}
+.hero-img{position:absolute;inset:-7% 0 0;width:100%;height:114%;object-fit:cover;object-position:center 30%;will-change:transform}
 @media(max-width:1000px){.hero{min-height:min(90vh,780px)}}
 .hero::after{content:"";position:absolute;inset:0;
 background:linear-gradient(180deg,rgba(10,10,10,.5) 0%,rgba(10,10,10,.12) 24%,rgba(10,10,10,.28) 50%,rgba(10,10,10,.74) 74%,rgba(10,10,10,.96) 91%,#0A0A0A 100%)}
